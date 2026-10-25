@@ -48,7 +48,7 @@ export default function Home() {
             </div>
         </div>
         <div className="image-portfolio object-cover ">
-            <img className="w-120 h-full  hidden md:flex" src="public/img-portfolio-removebg-preview.png" alt="my image" />
+            <img className="w-120 h-full  hidden md:flex" src="/img-portfolio-removebg-preview.png" alt="my image" />
         </div>
     </section>
     

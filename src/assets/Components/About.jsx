@@ -8,7 +8,7 @@ export default function About() {
     <h2 data-aos="fade-up" className='text-black  dark:text-violet-600 mb-3 text-center text-[42px] md:8xl font-bold tracking-wider drop-shadow-lg'>About Me </h2>
    <div className=" flex flex-col justify-center items-center gap-3 md:flex-row md:gap-20">
       <div data-aos="zoom-in" className="img">
-    <img className='max-h-100' src="public/Image-about.png" alt="imgAbout" />
+    <img className='max-h-100' src="/Image-about.png" alt="imgAbout" />
    </div>
       <div className="textAboutMe w-full md:max-w-3xl text-center space-y-8 text-lg md:text-xl leading-relaxed text-slate-300">
 

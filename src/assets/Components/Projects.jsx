@@ -7,7 +7,7 @@ export default function Projects() {
         {
             id: 1 ,
             proname:"AC Remote" ,
-            proimg:"public/acremote.webp" ,
+            proimg:"/acremote.webp" ,
             prodesc:"An interactive AC remote control Ui allowing users to manage temperatuers , power stataes, and modes dynamially using Vanilla javascript.",
             tech:["HTML" , "CSS" , "JavaScript"],
             aosAnimation: "fade-up-right",
@@ -18,7 +18,7 @@ export default function Projects() {
         {
             id: 2 ,
             proname:"To-Do-List" ,
-            proimg:"public/todolist-2.jpg" ,
+            proimg:"/todolist-2.jpg" ,
             prodesc:"A responsive To-Do List web app built with React and Tailwind CSS. Features local storage persistence, smooth task management (CRUD), and dynamic filtering for a seamless user experience.",
             tech:["React" , "Tailwind" , "JavaScript"],
             aosAnimation: "fade-up",
@@ -29,7 +29,7 @@ export default function Projects() {
         {
             id: 3 ,
             proname:"To-Do-List" ,
-            proimg:"public/img-real-state.png" ,
+            proimg:"/img-real-state.png" ,
             prodesc:"A modern, responsive real estate website built with HTML, CSS, and Bootstrap, featuring a clean design to explore properties seamlessly across all devices.",
             tech:["html" , "css" , "bootstrap"],
             aosAnimation: "fade-up-left",

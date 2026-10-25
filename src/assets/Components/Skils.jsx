@@ -3,14 +3,14 @@ import { useEffect } from "react";
 
 export default function Skils() {
     const myskils = [
-        { id: 1,  skilsimg:"public/html2.png", altname:"Html" ,  Skilsname:"Html" , aosAnimation: "fade-up-right"},
-        {  id: 2, skilsimg:"public/css3.jpeg", altname :"CSS" , Skilsname:"CSS" , aosAnimation: "fade-up"},
-        {  id: 3, skilsimg:"public/android-chrome-512x512.png", altname:"BOOtStrap" , Skilsname:"BOOtStrap" , aosAnimation: "fade-up"},
-        {  id: 4, skilsimg:"public/img-java-script.webp", altname:"JS" , Skilsname:"JS" , aosAnimation: "fade-up-left"},
-        {  id: 5, skilsimg:"public/img-react.png", altname:"React" , Skilsname:"React" , aosAnimation: "fade-up-right"},
-        {  id: 6, skilsimg:"public/img-tailwind.jpg", altname:"Tailwind" , Skilsname:"Tailwind" , aosAnimation: "fade-up"},
-        {  id: 7, skilsimg:"public/img-typeScript.webp", altname:"TS" , Skilsname:"TS" , aosAnimation: "fade-up"},
-        { id: 8 ,  skilsimg:"public/img-strapi.webp", altname:"strapi" , Skilsname:"strapi" , aosAnimation: "fade-up-left"},
+        { id: 1,  skilsimg:"/html2.png", altname:"Html" ,  Skilsname:"Html" , aosAnimation: "fade-up-right"},
+        {  id: 2, skilsimg:"/css3.jpeg", altname :"CSS" , Skilsname:"CSS" , aosAnimation: "fade-up"},
+        {  id: 3, skilsimg:"/android-chrome-512x512.png", altname:"BOOtStrap" , Skilsname:"BOOtStrap" , aosAnimation: "fade-up"},
+        {  id: 4, skilsimg:"/img-java-script.webp", altname:"JS" , Skilsname:"JS" , aosAnimation: "fade-up-left"},
+        {  id: 5, skilsimg:"/img-react.png", altname:"React" , Skilsname:"React" , aosAnimation: "fade-up-right"},
+        {  id: 6, skilsimg:"/img-tailwind.jpg", altname:"Tailwind" , Skilsname:"Tailwind" , aosAnimation: "fade-up"},
+        {  id: 7, skilsimg:"/img-typeScript.webp", altname:"TS" , Skilsname:"TS" , aosAnimation: "fade-up"},
+        { id: 8 ,  skilsimg:"/img-strapi.webp", altname:"strapi" , Skilsname:"strapi" , aosAnimation: "fade-up-left"},
     
     ];
        useEffect(() => {
