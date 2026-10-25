@@ -1,0 +1,116 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import 'animate.css';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+@utility fontFamily{
+  
+     font-family: "Arimo", sans-serif;
+ 
+  };
+
+  @utility  hover-link{
+    color:black;
+    padding:8px 10px;
+    border:1px solid transparent;
+    border-radius:8px;
+    transition:all 0.3s ease;
+  @variant hover{
+    background-color: rgba(147 , 197 , 253 , 0.1);
+    color:#3b82f6;
+    border-color:#3b82f6;
+  }
+  @variant dark{
+    color:#a78bfa;
+
+
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+@utility btn-glow{
+    background-color:#7c3aed;
+    transition: all 0.3s ease;
+
+    @variant hover{
+    background-color:#8b5cf6;
+    box-shadow: 0 10px 25px -5px rgba(139 , 92 , 246 , 0.5);
+
+    }
+}
+@utility glow-btn{
+   {
+  position: relative;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  /* color: #fff; */
+  /* background-color: #0f172a;  */
+  border: 1px solid #38bdf8;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1; /* لجعل النص والزر فوق التوهج */
+  transition: all 0.3s ease;
+}
+
+/* طبقة التوهج الخلفية */
+&::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, #00f2fe, #4facfe, #00f2fe);  
+  border-radius: inherit;
+  z-index: -1; /* جعل التوهج خلف الزر */
+  filter: blur(12px); /* درجة الضبابية والتوهج */
+  opacity: 0.7; /* شفافية التوهج */
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+/* زيادة التوهج عند الوقوف بالماوس (Hover) */
+&:hover::before {
+  opacity: 1;
+  filter: blur(18px);
+}
+
+&:hover {
+  transform: translateY(-2px);
+}
+}
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer components {
+  .skill-card {
+    @apply bg-white dark:bg-slate-900 rounded-2xl border border-slate-700 flex flex-col items-center justify-center p-3 lg:p-6 w-full h-80 transition-all duration-300 ease-in-out hover:scale-105  hover:via-blue-950 dark:hover:via-slate-700 hover:shadow-2xl hover:shadow-neutral-300 dark:hover:shadow-purple-800  cursor-pointer;
+  }
+}
+html , body{
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+@layer inputs-design{
+  .inputs-proberaty
+   {
+ @apply w-full mt-2 p-3 border placeholder:text-gray-400 dark:placeholder:text-gray-600 text-gray-700 dark:text-slate-200 rounded-xl
+}
+
+};
+@layer link-mobile{
+  .links-mobile-design
+   {
+ @apply flex items-center gap-3 p-2 bg-slate-200 rounded-xl dark:bg-mist-700 text-[18px] font-normal
+}
+
+}
+
+
