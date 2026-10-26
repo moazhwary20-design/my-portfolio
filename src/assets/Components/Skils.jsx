@@ -13,12 +13,7 @@ export default function Skils() {
         { id: 8 ,  skilsimg:"/img-strapi.webp", altname:"strapi" , Skilsname:"strapi" , aosAnimation: "fade-up-left"},
     
     ];
-       useEffect(() => {
-        Aos.init({
-          duration: 1000,  
-          // once: true,      
-        });
-      }, []);
+   
   return (
     <>
 
