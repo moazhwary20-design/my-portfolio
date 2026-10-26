@@ -34,8 +34,8 @@ export default function Projects() {
             tech:["html" , "css" , "bootstrap"],
             aosAnimation: "fade-up-left",
             aosDelay: "300",
-            link:"https://project-semi-final-28c6.vercel.app/pages/services.html",
-            linkgit:"https://github.com/moazhwary20-design/project-semi-final"
+            link:"https://real-state-eight-iota.vercel.app/",
+            linkgit:"https://github.com/moazhwary20-design/Real-state"
         }
      
     ]
