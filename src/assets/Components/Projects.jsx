@@ -28,7 +28,7 @@ export default function Projects() {
         },
         {
             id: 3 ,
-            proname:"To-Do-List" ,
+            proname:"real-state" ,
             proimg:"/img-real-state.png" ,
             prodesc:"A modern, responsive real estate website built with HTML, CSS, and Bootstrap, featuring a clean design to explore properties seamlessly across all devices.",
             tech:["html" , "css" , "bootstrap"],
